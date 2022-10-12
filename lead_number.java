@@ -22,5 +22,9 @@ public class lead_number
             n=n/10;  // Remove the last digit
         }
         System.out.println("Sum of even digits : "+sume+"\n"+"Sum of odd digits: "+sumo);  // Show output
+        if(sumo==sume)
+            System.out.println("Lead Number");
+        else
+            System.out.println("Not a lead number");
     }
 }
